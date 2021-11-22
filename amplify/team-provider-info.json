@@ -1,42 +1,48 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-restapicognitoauth-dev-125421-authRole",
-      "UnauthRoleArn": "arn:aws:iam::814763596509:role/amplify-restapicognitoauth-dev-125421-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::814763596509:role/amplify-restapicognitoauth-dev-125421-authRole",
-      "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
-      "UnauthRoleName": "amplify-restapicognitoauth-dev-125421-unauthRole",
-      "StackName": "amplify-restapicognitoauth-dev-125421",
-      "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-restapicognitoauth-dev-125421/71ba6de0-4afc-11ec-b2a5-0a1150afa35d",
-      "AmplifyAppId": "d2lsb50yumqpdz",
-      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-restapicognitoauth-dev-125421-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
-    },
-    "categories": {
-      "function": {
-        "restapicognitoautha90efc3d": {
-          "deploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
-          "s3Key": "amplify-builds/restapicognitoautha90efc3d-32355373385379723343-build.zip"
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-restapicognitoauth-dev-125421-authRole",
+            "UnauthRoleArn": "arn:aws:iam::814763596509:role/amplify-restapicognitoauth-dev-125421-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::814763596509:role/amplify-restapicognitoauth-dev-125421-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
+            "UnauthRoleName": "amplify-restapicognitoauth-dev-125421-unauthRole",
+            "StackName": "amplify-restapicognitoauth-dev-125421",
+            "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-restapicognitoauth-dev-125421/71ba6de0-4afc-11ec-b2a5-0a1150afa35d",
+            "AmplifyAppId": "d2lsb50yumqpdz",
+            "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-restapicognitoauth-dev-125421-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
         },
-        "restapicognitoauthf0c29b76": {
-          "deploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
-          "s3Key": "amplify-builds/restapicognitoauthf0c29b76-4f357449383068525966-build.zip"
-        },
-        "restapicognitoauthdb73dafaPostConfirmation": {
-          "GROUP": "users",
-          "deploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
-          "s3Key": "amplify-builds/restapicognitoauthdb73dafaPostConfirmation-52585a386b4f49737053-build.zip"
-        },
-        "restapicognitoauthdb73dafaPreSignup": {
-          "DOMAINALLOWLIST": "amazon.com",
-          "deploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
-          "s3Key": "amplify-builds/restapicognitoauthdb73dafaPreSignup-46493874326959564e2b-build.zip"
+        "categories": {
+            "function": {
+                "restapicognitoautha90efc3d": {
+                    "deploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
+                    "s3Key": "amplify-builds/restapicognitoautha90efc3d-32355373385379723343-build.zip"
+                },
+                "restapicognitoauthf0c29b76": {
+                    "deploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
+                    "s3Key": "amplify-builds/restapicognitoauthf0c29b76-4f357449383068525966-build.zip"
+                },
+                "restapicognitoauthdb73dafaPostConfirmation": {
+                    "GROUP": "users",
+                    "deploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
+                    "s3Key": "amplify-builds/restapicognitoauthdb73dafaPostConfirmation-52585a386b4f49737053-build.zip"
+                },
+                "restapicognitoauthdb73dafaPreSignup": {
+                    "DOMAINALLOWLIST": "amazon.com",
+                    "deploymentBucketName": "amplify-restapicognitoauth-dev-125421-deployment",
+                    "s3Key": "amplify-builds/restapicognitoauthdb73dafaPreSignup-46493874326959564e2b-build.zip"
+                }
+            },
+            "auth": {
+                "restapicognitoauthdb73dafa": {},
+                "true": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d2lsb50yumqpdz",
+                    "type": "cicd"
+                }
+            }
         }
-      },
-      "auth": {
-        "restapicognitoauthdb73dafa": {},
-        "true": {}
-      }
     }
-  }
 }
