@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "email-filter-allowlist"
+  ],
+  "parentResource": "restapicognitoauthdb73dafa",
+  "functionName": "restapicognitoauthdb73dafaPreSignup",
+  "resourceName": "restapicognitoauthdb73dafaPreSignup",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/Users/josef/.fnm/node-versions/v16.11.1/installation/pnpm-global/5/node_modules/.pnpm/@aws-amplify+amplify-category-auth@2.4.0-apiext4.0/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PreSignup",
+  "triggerTemplate": "PreSignup.json.ejs",
+  "triggerEventPath": "PreSignup.event.json",
+  "roleName": "restapicognitoauthdb73dafaPreSignup",
+  "skipEdit": true,
+  "DOMAINALLOWLIST": "amazon.com",
+  "enableCors": false
+}

@@ -1,0 +1,27 @@
+version: 1
+backend:
+  phases:
+    prebuild:
+      commands:
+        - nvm install
+        # - npm i -g @aws-amplify/cli
+        - yarn global add @aws-amplify/cli
+    build:
+      commands:
+        - '# Execute Amplify CLI with the helper script'
+        - amplifyPush --simple
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - npm install
+    build:
+      commands:
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*

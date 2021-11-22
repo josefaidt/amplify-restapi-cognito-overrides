@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "restapicognitoauthdb73dafa",
+  "functionName": "restapicognitoauthdb73dafaPostConfirmation",
+  "resourceName": "restapicognitoauthdb73dafaPostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/Users/josef/.fnm/node-versions/v16.11.1/installation/pnpm-global/5/node_modules/.pnpm/@aws-amplify+amplify-category-auth@2.4.0-apiext4.0/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "restapicognitoauthdb73dafaPostConfirmation",
+  "skipEdit": true,
+  "GROUP": "users",
+  "enableCors": false
+}

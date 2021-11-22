@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "paths": {
+    "/express": {
+      "name": "/express",
+      "lambdaFunction": "restapicognitoauthf0c29b76",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/hello": {
+      "name": "/hello",
+      "lambdaFunction": "restapicognitoautha90efc3d",
+      "permissions": {
+        "setting": "protected",
+        "auth": [
+          "read"
+        ],
+        "guest": [
+          "read"
+        ]
+      }
+    }
+  }
+}
